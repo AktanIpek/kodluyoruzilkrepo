@@ -1,12 +1,145 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+    <title>Bioinformatics</title>
+    <style>
+
+    body{
+        background: linear-gradient(0.35turn, #559fbe, #ebf8e1, #3f87a6);
+    }
+      h1 {
+        text-align: center;
+        color: black;
+        font-family: 'DynaPuff', cursive;
+        font-size: 30px;
+        font-weight: 550;
+        border: 1px solid #3f87a6;   border-radius: 10px;
+      }
+
+      h2 {
+        text-align: center;
+        color: #3f87a6;
+        font-family: 'DynaPuff', cursive;
+        font-weight: 500;
+      }
+      .my-container{
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+
+      li{
+        line-height: 1;
+        font-size: 15px;
+        margin: 20px 0 10px;
+        font-family: 'DynaPuff', cursive;
+        text-align: center;
+        list-style: none;
+
+      }
+      .learn-bioinformatics{
+        text-align: center;
+        display: block;
+      }
+
+      a{
+        font-family: 'DynaPuff', cursive;
+        color: #3f87a6;
+        font-weight: 400;
+        
+      }
+
+      img{
+        display: block;
+        margin: 0 auto;
+        padding: 10px 10px 15px 15px;
+      }
+     
+        button {
+        margin: 20px auto;
+        padding: 13px 25px;
+        display: block;
+        background: #3f87a6;
+        color: white;
+        font-size: 18px;
+        border: 0.5px solid black;
+        border-radius: 6px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.459);
+        transition: all 200ms ease-in-out;
+        font-family: 'DynaPuff', cursive;
+      }
+
+      button:hover {
+        opacity: 0.10;
+        cursor: wait;
+      }
+
+      .footer{
+        text-align: center;
+        font-family: 'DynaPuff', cursive;
+      }
+      
+    </style>
+  </head>
+  <div class="my-container">
+  <body>
+    <h1 class="font-effect-emboss">Bioinformatics For Health Science 🧬</h1>
+    <h2>What is <em>Bioinformatics?</em>👩‍🔬👩‍💻</h2>
+
+    <p>
+   <ul>
+    <li><strong>Bioinformatics</strong> is the application of tools of computation and analysis to the capture and interpretation of biological data.</li>
+    <li><strong>Bioinformatics</strong> is essential for management of data in modern biology and medicine.</li>
+    <li><strong> The Bioinformatics</strong> toolbox includes computer software programs such as BLAST and Ensembl, which depend on the availability of the internet.</li>
+    <li>Analysis of genome sequence data, particularly the analysis of the human genome project, is one of the main achievements of <strong>bioinformatics</strong> to date.</li>
+    <li>Prospects in the field of <strong>bioinformatics</strong> include its future contribution to functional understanding of the human genome, leading to enhanced discovery of drug targets and individualised therapy.</li>
+   </ul>
+   
+        <br />
+        <a
+        href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1122955/#:~:text=Bioinformatics%20is%20defined%20as%20the,physics%2C%20and%20biology%20(fig%20%E2%80%8B"
+        ,
+        target="_blank"
+        ,
+        class="learn-bioinformatics"
+      >
+        Learn more about <em>Bioinformatics</em>
+      </a>
+      <hr>
+      </p>
+    </hr>
+    <img src="https://www.pallikkutam.com/uploads/news_images/713.jpg", alt="bioinformatics_pic"> 
+      
+    <button class="science-button">Let's do crazy science together</button>
+    <p class="footer">Built by <a href="https://www.linkedin.com/in/ipek-yaren-aktan-144903145/"><em>Ipek</em></p></a>
+    </div>
+    <script>
+      function scienceInt() {
+        let email = prompt("What is your email adress?");
+        let science = prompt("Are you interested in Science?");
+        let h1 = document.querySelector("h1");
+
+        if(science==="yes"){
+          alert(
+          "Let's do some crazy science"
+        );
+
+        }else{
+          alert("Time to get into the science!");
+        }
+
+      }
+      let scienceButton = document.querySelector(".science-button");
+      scienceButton.addEventListener("click", scienceInt);
+
+    </script>
+  </body>
+  
 </html>
