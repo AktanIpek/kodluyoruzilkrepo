@@ -1,1 +1,59 @@
 
+.google-logo {
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+}
+
+.search {
+  background-color: rgb(233, 233, 233);
+  width: 50%;
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  margin: 10px;
+  background-color: rgb(187, 184, 184);
+  padding: 5px 10px;
+}
+
+input {
+  width: 300px;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.first-cont {
+  background-color: turquoise;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.second-cont {
+  background-color: rgb(52, 184, 170);
+  width: 100%;
+}
+
+.third-cont {
+  background-color: rgb(42, 145, 134);
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+}
